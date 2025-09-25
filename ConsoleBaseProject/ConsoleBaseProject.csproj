@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{911AB397-EEAF-4AAD-A365-590EFB01031B}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>ConsoleBaseProject</RootNamespace>
     <AssemblyName>ConsoleBaseProject</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleBaseProject.dataNilai</StartupObject>
+    <StartupObject>ConsoleBaseProject.NamaSiswaArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dataNilai.cs" />
+    <Compile Include="BilanganGanjil.cs" />
+    <Compile Include="BilanganGenap.cs" />
     <Compile Include="dataUmur.cs" />
+    <Compile Include="NamaSiswaArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TabelPerkalian.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
