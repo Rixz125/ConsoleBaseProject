@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleBaseProject.NamaSiswaArray</StartupObject>
+    <StartupObject>ConsoleBaseProject.NilaiSiswaKategori</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbsensiSiswa.cs" />
     <Compile Include="BilanganGanjil.cs" />
     <Compile Include="BilanganGenap.cs" />
     <Compile Include="dataUmur.cs" />
     <Compile Include="NamaSiswaArray.cs" />
+    <Compile Include="NilaiSiswaKategori.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TabelPerkalian.cs" />
